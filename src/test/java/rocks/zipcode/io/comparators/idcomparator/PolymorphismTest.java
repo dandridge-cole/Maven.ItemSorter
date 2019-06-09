@@ -13,7 +13,7 @@ import java.util.Comparator;
 public class PolymorphismTest {
     @Test
     public void test1() {
-        IdComparator nameComparator = new IdComparator();
+        IdComparator nameComparator = new IdComparator(); // this does test what it is supposed to, but the variable name is misleading
         Assert.assertTrue(nameComparator instanceof Comparator);
     }
 }
